@@ -104,6 +104,10 @@ bool CustomerInfo::operator> (const CustomerInfo& rhs) {
     return (this->nID > rhs.GetNid());
 }
 
+void CustomerInfo::Print(){
+	cout<<this.number<<endl;
+	
+}
 
 std::ostream &operator<<(std::ostream &output, const CustomerInfo& customer) {
 
