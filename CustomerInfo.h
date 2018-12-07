@@ -35,6 +35,8 @@ public:
 	bool operator!= (const CustomerInfo& rhs);
 	bool operator< (const CustomerInfo& rhs);
 	bool operator> (const CustomerInfo& rhs);
+	void print();
+	
 
 
     friend std::ostream &operator<<(std::ostream &output, const CustomerInfo &customer );
