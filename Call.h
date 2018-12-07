@@ -9,3 +9,7 @@ public:
 
     string get_num_of_caller();
     string get_name_of_caller();
+};
+
+
+#endif 
