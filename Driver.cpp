@@ -37,5 +37,11 @@ int main()
     D.AddNumberForExistingCustomer("12345678904","01544444444","Teletalk");  
   D.AddNumberForExistingCustomer("12345678904","01244444444","Random");
   
+  print.A();
+  print.B();
+  print.C();
+  print.D();
+  
+}
    
   
